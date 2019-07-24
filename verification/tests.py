@@ -48,8 +48,10 @@ TESTS = {
             "input": ("right", "left") * 10,
             "answer": ",".join(("left",) * 20)
         },
-
-
+        {
+            "input": ("therightstuff")
+            "answer": "theleftstuff"
+        },
 
     ]
 }
